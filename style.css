@@ -107,7 +107,7 @@
   }
 
   body {
-    font-family: cursive;
+    font-family: cursive, sans-serif;
     background-color: black;
     color: white;
     background-image: url(images/bg_wood-1.png);
