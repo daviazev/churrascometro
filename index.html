@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Churrascometro</title>
+    <style></style>
+  </head>
+  <body>
+    <main>
+      <div id="container_pai">
+        <div id="container">
+          <h1>Seja bem vindo ao CHURRASCÔMETRO!</h1>
+          <section id="infos">
+            <input
+              type="text"
+              class="infos"
+              id="qtd_adultos"
+              placeholder="Quantidade de adultos"
+            />
+            <input
+              type="text"
+              class="infos"
+              id="qtd_crianças"
+              placeholder="Quantidade de crianças"
+            />
+            <input
+              type="text"
+              class="infos"
+              id="qtd_horas"
+              placeholder="Duração do churrasco"
+            />
+            <input
+              type="submit"
+              id="calcular"
+              value="Calcular"
+              onclick="calculaCarne(this); calculaBebida(this); showResults()"
+            />
+          </section>
+        </div>
+      </div>
+      <div id="resultados_pai">
+        <div id="resultados">
+          <h2 class="pos"></h2>
+          <p class="pos"></p>
+          <p class="pos"></p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      By:
+      <a
+        target="_blank"
+        href="https://www.linkedin.com/in/davi-azevedo-oliveira-silva-a62267206/"
+        >Davi Azevedo</a
+      >
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
